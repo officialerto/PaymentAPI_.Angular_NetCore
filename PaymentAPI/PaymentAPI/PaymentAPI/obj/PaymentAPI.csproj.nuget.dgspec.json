@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {}
+    "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {
+    "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
         "projectName": "PaymentAPI",
-        "projectPath": "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
+        "projectPath": "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI\\PaymentAPI.csproj",
         "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\obj\\",
+        "outputPath": "C:\\Users\\Ertugrul\\source\\repos\\PaymentAPI\\PaymentAPI\\PaymentAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ertugrul\\AppData\\Roaming\\NuGet\\NuGet.Config",

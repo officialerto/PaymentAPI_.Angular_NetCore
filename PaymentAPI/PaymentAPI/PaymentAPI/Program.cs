@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //PART OF ADDED
-builder.Services.AddDbContext<PaymentDetailContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection"))); 
+builder.Services.AddDbContext<PaymentDetailContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
 var app = builder.Build();
 
@@ -21,6 +21,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//PART OF ADDED
+app.UseCors(options => options
+.WithOrigins("http://localhost:4200")
+.AllowAnyMethod()
+.AllowAnyHeader());
 
 app.UseAuthorization();
 
